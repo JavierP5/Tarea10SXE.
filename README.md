@@ -1,11 +1,6 @@
 # Tarea10SXE.
 
-# Instalar Odoo con 2 métodos  
-
-1. Usando docker
-2. Instalación manual
-
-## 1.Usando docker  
+## Instalar Odoo usando docker  
 Instalar la versión 17 de Odoo (Comunity)  
 
 1. Creamos un archivo docker-compose.yml:  
@@ -92,11 +87,11 @@ docker-compose down -v
 
 5. Configurar Odoo  
 
-    Acceder a Odoo en: http://localhost:8069.
-    Crear una nueva base de datos desde la interfaz inicial de Odoo:
-        Nombre: odoo_db
-        Correo administrador: (por ejemplo, admin@admin.com).
-        Contraseña administrador: Definir tu contraseña.
-    Configurar la base de datos (ya estará enlazada con el contenedor PostgreSQL).
+    Acceder a Odoo en: http://localhost:8069.  
+    Crear una nueva base de datos desde la interfaz inicial de Odoo:  
+        Nombre: odoo_db  
+        Correo administrador: (por ejemplo, admin@admin.com).  
+        Contraseña administrador: Definir tu contraseña.  
+    Configurar la base de datos (ya estará enlazada con el contenedor PostgreSQL).  
 
 
