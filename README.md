@@ -94,4 +94,6 @@ docker-compose down -v
         Contraseña administrador: Definir tu contraseña.  
     Configurar la base de datos (ya estará enlazada con el contenedor PostgreSQL).  
 
-
+6. Acceder a la instalación de Odoo  
+  -Nos identificamos:
+   ![Credenciales](file:///home/javier/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202025-01-16%2012-51-53.png)
